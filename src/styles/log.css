@@ -1,0 +1,8 @@
+.log {
+  background: url('http://i.stack.imgur.com/ynxjD.png') repeat-y;
+  width: 350px;
+  height: 300px;
+  font: normal 22px 'Marker Felt', cursive;
+  line-height: 25px;
+  padding: 2px 10px 2px 110px;
+}

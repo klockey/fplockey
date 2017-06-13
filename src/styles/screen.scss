@@ -11,3 +11,29 @@ body {
   margin: 0;
   font: $base-text-size / 1 $base-font-family;
 }
+
+img {
+  width: 300px;
+  height: 300px;
+}
+
+.txtArea {
+  margin:auto;
+  // margin-left: 37px;
+}
+
+.photo {
+    margin-left: 37px;
+}
+
+.map{
+    margin-left: 60px;
+}
+
+.inputClass{
+  margin-left: 54px;
+}
+
+.centerMap{
+  text-align: center;
+}
