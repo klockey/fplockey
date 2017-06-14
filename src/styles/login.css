@@ -29,7 +29,8 @@
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     outline: 0;
-    background: rgba(41,184,229,1);
+    background: #18BC9C;
+  //  background: rgba(41,184,229,1);
   //  background: #4CAF50;
   //  background: #1a1a1a;
     width: 100%;

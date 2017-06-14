@@ -201,22 +201,22 @@ class TravelLog extends Component {
           </div>
           <div className='row'>
             <div className='col-lg-4 col-lg-offset-2'>
-              <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+              <p>Travel Log is an application allowing the user to document his vacation or experience by uploading a photo, choosing a spot on a Google map and writing a message.</p>
             </div>
             <div className='col-lg-4'>
-              <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+              <p> We strive to make your Travels more memorable by providing this application!  We hope you enjoy yourselves.  Remember to be safe!! </p>
             </div>
-            <div className='col-lg-8 col-lg-offset-2 text-center'>
-              <a href='#' className='btn btn-lg btn-outline'>
-                <i className='fa fa-download' /> Download Theme
-                    </a>
-            </div>
+            {/* <div className='col-lg-8 col-lg-offset-2 text-center'> */}
+            {/* <a href='#' className='btn btn-lg btn-outline'> */}
+            {/* <i className='fa fa-download' /> Download Theme */}
+            {/* </a> */}
+            {/* </div> */}
           </div>
         </div>
       </section>
 
       {/* <!-- Contact Section --> */}
-      <section id='contact'>
+      {/* <section id='contact'>
         <div className='container'>
           <div className='row'>
             <div className='col-lg-12 text-center'>
@@ -227,8 +227,8 @@ class TravelLog extends Component {
           <div className='row'>
             <div className='col-lg-8 col-lg-offset-2'>
               {/* <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. --> */}
-              {/* <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. --> */}
-              <form name='sentMessage' id='contactForm' noValidate>
+      {/* <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. --> */}
+      {/* <form name='sentMessage' id='contactForm' noValidate>
                 <div className='row control-group'>
                   <div className='form-group col-xs-12 floating-label-form-group controls'>
                     <label htmlFor='name'>Name</label>
@@ -268,19 +268,19 @@ class TravelLog extends Component {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* <!-- Footer --> */}
       <footer className='text-center'>
-        <div className='footer-above'>
+        {/* <div className='footer-above'>
           <div className='container'>
-            <div className='row'>
-              <div className='footer-col col-md-4'>
-                <h3>Location</h3>
-                <p>3481 Melrose Place
-                            <br />Beverly Hills, CA 90210</p>
-              </div>
-              <div className='footer-col col-md-4'>
+            <div className='row'> */}
+        {/* <div className='footer-col col-md-4'>
+                <h3>KEITH LOCKEY</h3>
+                <p>1016 Barkwood Court
+                            <br />Safety Harbor, FL 34695</p>
+              </div> */}
+        {/* <div className='footer-col col-md-4'>
                 <h3>Around the Web</h3>
                 <ul className='list-inline'>
                   <li>
@@ -299,19 +299,19 @@ class TravelLog extends Component {
                     <a href='#' className='btn-social btn-outline'><span className='sr-only'>Dribble</span><i className='fa fa-fw fa-dribbble' /></a>
                   </li>
                 </ul>
-              </div>
-              <div className='footer-col col-md-4'>
+              </div> */}
+        {/* <div className='footer-col col-md-4'>
                 <h3>About Freelancer</h3>
                 <p>Freelance is a free to use, open source Bootstrap theme created by <a href='http://startbootstrap.com'>Start Bootstrap</a>.</p>
-              </div>
-            </div>
-          </div>
-        </div>
+              </div> */}
+        {/* </div> */}
+        {/* </div> */}
+        {/* </div> */}
         <div className='footer-below'>
           <div className='container'>
             <div className='row'>
               <div className='col-lg-12'>
-                        Copyright &copy; Your Website 2016
+                        Copyright &copy; KEITH LOCKEY 2017
                     </div>
             </div>
           </div>
