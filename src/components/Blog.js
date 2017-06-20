@@ -50,13 +50,12 @@ class Blog extends Component {
         <div className='container'>
           {/* <!-- Brand and toggle get grouped for better mobile display --> */}
           <div className='navbar-header page-scroll'>
-            {/* <button type='button' className='navbar-toggle' data-toggle='collapse' data-target='#bs-example-navbar-collapse-1'> */}
-            {/* <span className='sr-only'>Toggle navigation</span> Menu <i className='fa fa-bars' /> */}
-            {/* </button> */}
-            {/* <a className='navbar-brand' href='#page-top'>Travel Log</a> */}
             <div>
               <NavLink className='navbar-brand' to='/travellog'>Log</NavLink>
               <NavLink className='navbar-brand' to='/'>Exit</NavLink>
+              <div className='navbar-brand'><h6>{store.convertDate(store.date)}</h6></div>
+              <div className='navbar-brand'><h6>{store.user.email}</h6></div>
+              {/* <div className='navbar-brand'><h6>{store.user.uid}</h6></div> */}
             </div>
           </div>
           {/* <!-- Collect the nav links, forms, and other content for toggling --> */}
@@ -151,107 +150,14 @@ class Blog extends Component {
             <div className='col-lg-4'>
               <p>We strive to make your Travels more memorable by providing this application!  We hope you enjoy yourselves.  Remember to be safe!!</p>
             </div>
-            {/* <div className='col-lg-8 col-lg-offset-2 text-center'> */}
-            {/* <a href='#' className='btn btn-lg btn-outline'>
-                <i className='fa fa-download' /> Download Theme
-                    </a>
-            </div> */}
           </div>
         </div>
       </section>
 
-      {/* <!-- Contact Section --> */}
-      {/* <section id='contact'>
-        <div className='container'>
-          <div className='row'>
-            <div className='col-lg-12 text-center'>
-              <h2>Contact Me</h2>
-              <hr className='star-primary' />
-            </div>
-          </div>
-          <div className='row'>
-            <div className='col-lg-8 col-lg-offset-2'>
-              {/* <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. --> */}
-      {/* <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. --> */}
-      {/* <form name='sentMessage' id='contactForm' noValidate>
-                <div className='row control-group'>
-                  <div className='form-group col-xs-12 floating-label-form-group controls'>
-                    <label htmlFor='name'>Name</label>
-                    <input type='text' className='form-control' placeholder='Name' id='name' required data-validation-required-message='Please enter your name.' />
-                    <p className='help-block text-danger' />
-                  </div>
-                </div>
-                <div className='row control-group'>
-                  <div className='form-group col-xs-12 floating-label-form-group controls'>
-                    <label htmlFor='email'>Email Address</label>
-                    <input type='email' className='form-control' placeholder='Email Address' id='email' required data-validation-required-message='Please enter your email address.' />
-                    <p className='help-block text-danger' />
-                  </div>
-                </div>
-                <div className='row control-group'>
-                  <div className='form-group col-xs-12 floating-label-form-group controls'>
-                    <label htmlFor='phone'>Phone Number</label>
-                    <input type='tel' className='form-control' placeholder='Phone Number' id='phone' required data-validation-required-message='Please enter your phone number.' />
-                    <p className='help-block text-danger' />
-                  </div>
-                </div>
-                <div className='row control-group'>
-                  <div className='form-group col-xs-12 floating-label-form-group controls'>
-                    <label htmlFor='message'>Message</label>
-                    <textarea rows='5' className='form-control' placeholder='Message' id='message' required data-validation-required-message='Please enter a message.' />
-                    <p className='help-block text-danger' />
-                  </div>
-                </div>
-                <br />
-                <div id='success' />
-                <div className='row'>
-                  <div className='form-group col-xs-12'>
-                    <button type='submit' className='btn btn-success btn-lg'>Send</button>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div> */}
       {/* </section>  */}
 
       {/* <!-- Footer --> */}
       <footer className='text-center'>
-        {/* <div className='footer-above'> */}
-        {/* <div className='container'> */}
-        {/* <div className='row'>
-              <div className='footer-col col-md-4'>
-                <h3>KEITH LOCKEY</h3>
-                <p>1016 Barkwood Court
-                            <br />Safety Harbor, FL 34695</p>
-              </div> */}
-        {/* <div className='footer-col col-md-4'>
-                <h3>Around the Web</h3>
-                <ul className='list-inline'>
-                  <li>
-                    <a href='#' className='btn-social btn-outline'><span className='sr-only'>Facebook</span><i className='fa fa-fw fa-facebook' /></a>
-                  </li>
-                  <li>
-                    <a href='#' className='btn-social btn-outline'><span className='sr-only'>Google Plus</span><i className='fa fa-fw fa-google-plus' /></a>
-                  </li>
-                  <li>
-                    <a href='#' className='btn-social btn-outline'><span className='sr-only'>Twitter</span><i className='fa fa-fw fa-twitter' /></a>
-                  </li>
-                  <li>
-                    <a href='#' className='btn-social btn-outline'><span className='sr-only'>Linked In</span><i className='fa fa-fw fa-linkedin' /></a>
-                  </li>
-                  <li>
-                    <a href='#' className='btn-social btn-outline'><span className='sr-only'>Dribble</span><i className='fa fa-fw fa-dribbble' /></a>
-                  </li>
-                </ul>
-              </div> */}
-        {/* <div className='footer-col col-md-4'>
-                <h3>About Freelancer</h3>
-                <p>Freelance is a free to use, open source Bootstrap theme created by <a href='http://startbootstrap.com'>Start Bootstrap</a>.</p>
-              </div> */}
-        {/* </div> */}
-        {/* </div> */}
-        {/* </div> */}
         <div className='footer-below'>
           <div className='container'>
             <div className='row'>
@@ -488,21 +394,6 @@ class Blog extends Component {
         </div>
       </div>
     </div>
-    // <!-- jQuery -->
-    // <script src="vendor/jquery/jquery.min.js"></script>
-
-    // <!-- Bootstrap Core JavaScript -->
-    // <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    // <!-- Plugin JavaScript -->
-    // <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
-    // <!-- Contact Form JavaScript -->
-    // <script src="js/jqBootstrapValidation.js"></script>
-    // <script src="js/contact_me.js"></script>
-
-    // <!-- Theme JavaScript -->
-    // <script src="js/freelancer.min.js"></script>
   }
 }
 

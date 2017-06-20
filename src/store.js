@@ -3,8 +3,8 @@ import { firebase } from './db'
 
 class Store {
   @observable user = {}
-  // @observable date = new Date().getFullYear() + '-' + (new Date().getMonth() + 1) + '-' + new Date().getDate()
-  @observable date = new Date().getFullYear() + '-' + (new Date().getMonth() + 1) + '-10'
+ @observable date = new Date().getFullYear() + '-' + (new Date().getMonth() + 1) + '-' + new Date().getDate()
+// @observable date = new Date().getFullYear() + '-' + (new Date().getMonth() + 1) + '-12'
 // @observable date = '2017-6-13'
   @observable url = ''
   @observable convertDate (date) {

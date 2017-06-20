@@ -39,7 +39,8 @@ class CreateAccount extends Component {
     const promise = auth.createUserWithEmailAndPassword(email, password)
     promise.then(user => {
       store.user = user
-      this.props.history.push('/travellog')
+      // this.props.history.push('/travellog')
+      this.props.history.push('/blog')
     })
       .catch(e => console.log('error with registration'))
   }

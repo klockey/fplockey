@@ -50,7 +50,8 @@ import '../styles/login.css'
     promise.then(user => {
       console.log(user)
       store.user = user
-      this.props.history.push('/travellog')
+    //  this.props.history.push('/travellog')
+      this.props.history.push('/blog')
     }
   ).catch(e => console.log('error with signin login.js'))
   }
@@ -63,6 +64,7 @@ import '../styles/login.css'
           <input type='password' placeholder='password' value={this.state.password} onChange={this.handleChangePassword} />
           <button>login</button>
           <p className='message'> Not registered? <Link to='/createaccount'>Create an account </Link> </p>
+          <p> This is a readonly version of this app for security reasons.  You can contact me for the full version at lockey.keith@gmail.com.   The username is aa@gmail.com and the password is aaaaaa </p>
         </form>
       </div>
     </div>

@@ -19,8 +19,8 @@ class App extends Component {
           <Route path='/createaccount' component={CreateAccount} /> */}
           {/* <Route path='/travellog' component={TravelLog} /> */}
           <Route exact path='/' component={Login} />
-          <Route path='/createaccount' component={CreateAccount} />
-          <Route path='/travellog' component={TravelLog} />
+          {/* <Route path='/createaccount' component={CreateAccount} /> */}
+          {/* <Route path='/travellog' component={TravelLog} /> */}
           <Route path='/blog' component={Blog} />
           {/* <Route path='/blog' component={Blog} /> */}
         </Switch>
