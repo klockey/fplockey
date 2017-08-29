@@ -25,12 +25,9 @@ import '../styles/login.css'
 
   componentDidMount () {
     console.log('hello')
-  //  console.log('CreateAccount')
-  //  this.state.redirect = false
   }
 
   handleOnClick = () => {
-  //  this.setState({redirect: true})
   }
 
   handleChangePassword (event) {
@@ -50,8 +47,8 @@ import '../styles/login.css'
     promise.then(user => {
       console.log(user)
       store.user = user
-    //  this.props.history.push('/travellog')
-      this.props.history.push('/blog')
+      this.props.history.push('/travellog')
+    //  this.props.history.push('/blog')
     }
   ).catch(e => console.log('error with signin login.js'))
   }

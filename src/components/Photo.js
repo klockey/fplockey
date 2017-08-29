@@ -1,8 +1,5 @@
 import React, { Component } from 'react'
 import * as firebase from 'firebase'
-// import '../styles/bootstrap.min.css'
-// import '../styles/index.css'
-// import '../styles/justified-nav.css'
 import FileInput from 'react-file-input'
 import Loading from './Loading'
 import _ from 'lodash'
@@ -50,9 +47,7 @@ class Photo extends Component {
   }
 
   render () {
-//  if (!this.state.loaded) return <Loading />
     return <div>
-      {/* <img className='' src={this.state.url} /> */}
       <img className='' src={this.state.url || this.state.oldPhoto} />
       <form onSubmit=''>
         <FileInput name='myImage'
@@ -66,5 +61,3 @@ class Photo extends Component {
 }
 
 export default Photo
-
-// firebase.database()

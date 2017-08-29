@@ -39,12 +39,8 @@ class TextArea extends Component {
   }
 
   render () {
-  //  if (!this.state.loaded) return <Loading />
     return <div>
-      {/* <div className='row companions'> */}
-      {/* <div className='col-lg-4'> */}
       <textarea className='log form-controlform form-rounded dimensions' value={this.state.entry} onChange={this._change} />
-      {/* </div> */}
     </div>
   }
 }

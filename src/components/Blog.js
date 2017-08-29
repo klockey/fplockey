@@ -42,30 +42,23 @@ class Blog extends Component {
 
   render () {
     return <div className='TravelLog'>
-      {/* <body id="page-top" class="index"> */}
+
       <div id='skipnav'><a href='#maincontent'>Skip to main content</a></div>
 
-      {/* <!-- Navigation --> */}
       <nav id='mainNav' className='navbar navbar-default navbar-fixed-top navbar-custom'>
         <div className='container'>
-          {/* <!-- Brand and toggle get grouped for better mobile display --> */}
           <div className='navbar-header page-scroll'>
             <div>
               <NavLink className='navbar-brand' to='/travellog'>Log</NavLink>
               <NavLink className='navbar-brand' to='/'>Exit</NavLink>
               <div className='navbar-brand'><h6>{store.convertDate(store.date)}</h6></div>
               <div className='navbar-brand'><h6>{store.user.email}</h6></div>
-              {/* <div className='navbar-brand'><h6>{store.user.uid}</h6></div> */}
             </div>
           </div>
-          {/* <!-- Collect the nav links, forms, and other content for toggling --> */}
           <div className='collapse navbar-collapse' id='bs-example-navbar-collapse-1' />
-          {/* <!-- /.navbar-collapse --> */}
         </div>
-        {/* <!-- /.container-fluid --> */}
       </nav>
 
-      {/* <!-- Header --> */}
       <header>
         <div className='container' id='maincontent' tabIndex='-1'>
           <div className='row'>
@@ -81,7 +74,6 @@ class Blog extends Component {
         </div>
       </header>
 
-      {/* <!-- Portfolio Grid Section --> */}
       <section id='portfolio'>
         <div className='container'>
           <div className='row'>
@@ -93,7 +85,6 @@ class Blog extends Component {
               <br />
             </div>
           </div>
-          {/* <div className='row'> */}
           {_.map(this.state.entries, (log, date) => {
             return <div key={date}>
               {console.log('lat 1 ' + log.location.lat)}
@@ -106,7 +97,6 @@ class Blog extends Component {
                   <hr className='star-primary' />
                 </div>
               </div>
-              {/* </div> */}
 
               <div className='row'>
                 <div className='col-lg-12 text-center'>
@@ -127,14 +117,12 @@ class Blog extends Component {
                   <br />
                   <br />
                 </div>
-                {/* </div> */}
               </div>
             </div>
           })}
         </div>
       </section>
 
-      {/* <!-- About Section --> */}
       <section className='success' id='about'>
         <div className='container'>
           <div className='row'>
@@ -154,9 +142,6 @@ class Blog extends Component {
         </div>
       </section>
 
-      {/* </section>  */}
-
-      {/* <!-- Footer --> */}
       <footer className='text-center'>
         <div className='footer-below'>
           <div className='container'>
@@ -169,14 +154,12 @@ class Blog extends Component {
         </div>
       </footer>
 
-      {/* <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) --> */}
       <div className='scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md'>
         <a className='btn btn-primary' href='#page-top'>
           <i className='fa fa-chevron-up' />
         </a>
       </div>
 
-      {/* <!-- Portfolio Modals --> */}
       <div className='portfolio-modal modal fade' id='portfolioModal1' tabIndex='-1' role='dialog' aria-hidden='true'>
         <div className='modal-content'>
           <div className='close-modal' data-dismiss='modal'>
@@ -190,7 +173,6 @@ class Blog extends Component {
                 <div className='modal-body'>
                   <h2>Project Title</h2>
                   <hr className='star-primary' />
-                  {/* <img src='img/portfolio/cabin.png' className='img-responsive img-centered' alt='' /> */}
                   <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href='https://sellfy.com/p/8Q9P/jV3VZ/'>Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                   <ul className='list-inline item-details'>
                     <li>Client:
@@ -226,7 +208,6 @@ class Blog extends Component {
                 <div className='modal-body'>
                   <h2>Project Title</h2>
                   <hr className='star-primary' />
-                  {/* <img src='img/portfolio/cake.png' className='img-responsive img-centered' alt='' /> */}
                   <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href='https://sellfy.com/p/8Q9P/jV3VZ/'>Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                   <ul className='list-inline item-details'>
                     <li>Client:
@@ -298,7 +279,6 @@ class Blog extends Component {
                 <div className='modal-body'>
                   <h2>Project Title</h2>
                   <hr className='star-primary' />
-                  {/* <img src='img/portfolio/game.png' className='img-responsive img-centered' alt='' /> */}
                   <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href='https://sellfy.com/p/8Q9P/jV3VZ/'>Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                   <ul className='list-inline item-details'>
                     <li>Client:
@@ -370,7 +350,6 @@ class Blog extends Component {
                 <div className='modal-body'>
                   <h2>Project Title</h2>
                   <hr className='star-primary' />
-                  {/* <img src='img/portfolio/submarine.png' className='img-responsive img-centered' alt='' /> */}
                   <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href='https://sellfy.com/p/8Q9P/jV3VZ/'>Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                   <ul className='list-inline item-details'>
                     <li>Client:
