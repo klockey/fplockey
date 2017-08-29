@@ -63,9 +63,9 @@ import '../styles/login.css'
           <p className='message'> Not registered? <Link to='/createaccount'>Create an account </Link> </p>
         </form>
       </div>
-      <p> This is a readonly version of this app for security reasons.
-          For the full version write to lockey.keith@gmail.com.
-          The username is aa@gmail.com and the password is aaaaaa. </p>
+//                 <p> This is a readonly version of this app for security reasons.
+//           For the full version write to lockey.keith@gmail.com.
+//           The username is aa@gmail.com and the password is aaaaaa. </p>
     </div>
   }
 }
