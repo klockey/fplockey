@@ -27,7 +27,7 @@ class TravelLog extends Component {
 
   componentDidMount () {
     this.updateLocation()
-    console.log('travellog from sign in')
+    console.log('travel log from sign in ')
   }
 
   componentWillReact () {
