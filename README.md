@@ -66,5 +66,4 @@ fplockey allows an end user to store useful information about each day of their 
 
 ## Acknowledgments
 
-* My instructor Jason Perry pointed me in the right direction whenever I had a question.
 * Inspiration:  I always thought it would be nice to document a vacation with a computer instead of using pencil and paper.
