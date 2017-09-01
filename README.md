@@ -1,5 +1,5 @@
 # fplockey  
-    fplockey allows an end user to store useful information about each day of their vacation by placing a picture, picking a       spot on Google maps and making an interesting text entry into the database.  The project was witten in React and uses a       JSON database called Firebase (a product of Google).   
+fplockey allows an end user to store useful information about each day of their vacation by placing a picture, picking a   spot on Google maps and making an interesting text entry into the database.  The project was witten in React and uses a       JSON database called Firebase (a product of Google).   
 
 ## Server
     Webserver started within the project with the command "webpack-dev-server"
