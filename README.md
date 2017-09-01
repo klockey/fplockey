@@ -57,8 +57,8 @@ fplockey allows an end user to store useful information about each day of their 
 
 ## Primary Technology
 
-* [React](https://facebook.github.io/react/) - The Javascript framework used
-* [Firebase](https://firebase.google.com/) - JSON Database used
+* [React](https://facebook.github.io/react/) - The Javascript framework used.
+* [Firebase](https://firebase.google.com/) - JSON Database used.
 
 ## Author
 
