@@ -69,4 +69,4 @@ Add additional notes about how to deploy this on a live system
 ## Acknowledgments
 
 * My instructor Jason Perry pointed me in the right direction whenever I had a question.
-* Inspiration:  I always thought it would be nice to document a vacation with a computer instead of using pencial and paper.
+* Inspiration:  I always thought it would be nice to document a vacation with a computer instead of using pencil and paper.
