@@ -1,6 +1,9 @@
 # fplockey  
 fplockey allows an end user to store useful information about each day of their vacation by placing a picture, picking a   spot on Google maps and making an interesting text entry into the database.  The project was witten in React and uses a       JSON database called Firebase (a product of Google).   
 
+# Note: 
+ This project was submitted to the Iron Yard as a final project.  Because of time constraints the login page was not constructed to convey to the user issues with logging in. 
+
 ## Server
     Webserver started within the project with the command "webpack-dev-server"
 
@@ -56,6 +59,7 @@ fplockey allows an end user to store useful information about each day of their 
     "whatwg-fetch": "^2.0.3"
 
 ## Primary Technology
+
 
 * [React](https://facebook.github.io/react/) - The Javascript framework used.
 * [Firebase](https://firebase.google.com/) - JSON Database used.
